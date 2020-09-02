@@ -67,7 +67,8 @@ div.link_in
 	transform: translate(-50%, -50%);
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1100px) 
+{
     div.github {
 		position: fixed;
 		top: 37%;
@@ -82,6 +83,7 @@ div.link_in
 		left: 69%;
 		transform: translate(-50%, -50%);
 	}
+}
 
 div.thanks
 {
