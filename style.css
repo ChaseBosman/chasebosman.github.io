@@ -7,9 +7,9 @@
 
 header, body
 {
-	background: darkblue;
+	background: black;
 	background-image: url("images/Mountains.png");
-	/*background-size: cover;*/
+	background-size: cover;
     background-attachment: fixed;
     background-position: center center;
 
