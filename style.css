@@ -5,52 +5,77 @@
 
 }
 
-header
+body
 {
-	background: #eb01a5;
+	background: black;
   	background-image: url("images/Mountains.svg.png");
-	height: 100vh;
-	background-size: cover;
-	background-position: center; 
 }
-
 
 html, body {
     position: fixed;
     top: 0;
     bottom: 0;
     left: 0;
-    right: 0;
 }
 
-.main-nav
+.under_construction
 {
-	float: right;
-	list-style: none;
-	margin-top: 30px;
-	padding: 20px 50px;
-	font-family: "Roboto", sans-serif;
+	position: fixed;
+	top: 37%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
-.main-nav li
+.sidenav 
 {
-	display: inline-block;
+	height: 100%; 
+	width: 0; 
+	position: fixed; 
+	z-index: 1;
+	top: 0; 
+	left: 0;
+	background-color: #111;
+	overflow-x: hidden; 
+	padding-top: 60px;
+	transition: 0.5s; 
 }
 
-.main-nav li a
+.sidenav a 
 {
-	color: black;
+	padding: 8px 8px 8px 32px;
 	text-decoration: none;
-	padding: 20px 30px;
-	font-family: "Roboto", sans-serif;
 	font-size: 25px;
+	color: #818181;
+	display: block;
+	transition: 0.3s;
 }
 
-.main-nav li a:hover
+.sidenav a:hover 
 {
-	border: 1px solid white;
+	color: #f1f1f1;
 }
 
+.sidenav .close 
+{
+	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 36px;
+	margin-left: 50px;
+}
+
+#items 
+{
+	transition: margin-left .5s;
+	padding: 20px;
+}
+
+@media screen and (max-height: 450px) 
+{
+	.sidenav {padding-top: 15px;}
+	.sidenav a {font-size: 18px;}
+} 
+  
 div.github
 {
 	position: fixed;
