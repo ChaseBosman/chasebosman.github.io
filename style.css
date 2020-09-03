@@ -8,7 +8,7 @@
 header, body
 {
 	background: black;
-	background-image: url("images/Mountains.svg.png");
+	background-image: url("images/Mountains.png");
 	background-attachment:scroll;
 }
 
@@ -71,13 +71,13 @@ html, body {
 	padding: 20px;
 }
 
-/*@media screen and (max-width: 900px) 
+@media screen and (max-width: 812px) 
 {
 	body
 	{
-		background-attachment: initial;
+		background-image: url("images/small_mtns.png");
 	}
-} */
+} 
   
 
 @media screen and (max-height: 450px) 
