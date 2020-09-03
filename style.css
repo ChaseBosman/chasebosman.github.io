@@ -9,6 +9,7 @@ header, body
 {
 	background: darkred;
 	background-image: url("images/Mountains.svg.png");
+	background-attachment:scroll;
 }
 
 html, body {
