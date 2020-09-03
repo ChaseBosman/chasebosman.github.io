@@ -9,7 +9,7 @@ body
 {
 	background: black;
 	background-image: url("images/Mountains.svg.png");
-	background-size: 100% cover;
+	background-attachment: fixed;
 }
 
 html, body {
