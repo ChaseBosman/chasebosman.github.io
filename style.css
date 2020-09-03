@@ -10,6 +10,7 @@ header, body
 	background: darkblue;
 	background-image: url("images/Mountains.png");
 	background-attachment:scroll;
+	min-height: 100%;
 }
 
 html, body {
