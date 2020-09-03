@@ -9,7 +9,7 @@ header, body
 {
 	background: darkblue;
 	background-image: url("images/Mountains.png");
-	background-size: cover;
+	/*background-size: cover;*/
     background-attachment: fixed;
     background-position: center center;
 
@@ -78,7 +78,13 @@ html, body {
 {
 	body
 	{
-    	background-attachment: scroll;
+    	position: fixed;
+		background-size: 100% auto;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: -69px;
+		z-index: -1;
 	}
 } 
   
