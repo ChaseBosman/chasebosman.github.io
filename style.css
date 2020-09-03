@@ -72,13 +72,13 @@ html, body {
 	padding: 20px;
 }
 
-@media screen and (min-device-width: 375px) and (max-device-width: 812px)
+/*@media screen and (min-device-width: 375px) and (max-device-width: 812px)
 {
 	body
 	{
 		background-image: url("images/small_mtns.png");
 	}
-} 
+} */
   
 
 @media screen and (max-height: 450px) 
