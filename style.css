@@ -9,7 +9,6 @@ body
 {
 	background: black;
 	background-image: url("images/Mountains.svg.png");
-	background-attachment: scroll;
 }
 
 html, body {
@@ -70,6 +69,16 @@ html, body {
 	transition: margin-left .5s;
 	padding: 20px;
 }
+
+@media screen and (max-width: 959px) 
+{
+	body
+	{
+		background: black;
+		background-image: url("images/github.png");
+	}
+} 
+  
 
 @media screen and (max-height: 450px) 
 {
