@@ -7,7 +7,7 @@
 
 header, body
 {
-	background: black;
+	background: darkblue;
 	background-image: url("images/Mountains.png");
 	background-attachment:scroll;
 }
@@ -71,7 +71,7 @@ html, body {
 	padding: 20px;
 }
 
-@media screen and (max-width: 450px) 
+@media screen and (min-device-width: 375px) and (max-device-width: 812px) 
 {
 	body
 	{
