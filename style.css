@@ -70,12 +70,11 @@ html, body {
 	padding: 20px;
 }
 
-@media screen and (max-width: 959px) 
+@media screen and (max-width: 900px) 
 {
 	body
 	{
-		background: black;
-		background-image: url("images/small.jpg");
+		background-attachment:initial;
 	}
 } 
   
