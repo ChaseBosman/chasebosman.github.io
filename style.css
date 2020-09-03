@@ -5,9 +5,9 @@
 
 }
 
-body
+header, body
 {
-	background: darkblue;
+	background: darkred;
 	background-image: url("images/Mountains.svg.png");
 }
 
@@ -74,7 +74,7 @@ html, body {
 {
 	body
 	{
-		background-attachment:initial;
+		background-attachment: initial;
 	}
 } 
   
