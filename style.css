@@ -9,10 +9,6 @@ header, body
 {
 	background: black;
 	background-image: url("images/Mountains.png");
-	background-size: cover;
-    background-attachment: fixed;
-    background-position: center center;
-
 }
 
 html, body {
@@ -74,20 +70,6 @@ html, body {
 	padding: 20px;
 }
 
-@media screen and (min-device-width: 375px) and (max-device-width: 812px)
-{
-	body
-	{
-    	position: fixed;
-		background-size: 100% auto;
-		top: 0;
-		left: 0;
-		right: 0;
-		bottom: -69px;
-		z-index: -1;
-	}
-} 
-  
 
 @media screen and (max-height: 450px) 
 {
