@@ -9,7 +9,7 @@ body
 {
 	background: black;
 	background-image: url("images/Mountains.svg.png");
-	background-attachment: fixed;
+	background-attachment: scroll;
 }
 
 html, body {
