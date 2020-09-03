@@ -11,13 +11,6 @@ header, body
 	background-image: url("images/Mountains.png");
 }
 
-html, body {
-    /*position: fixed;*/
-    top: 0;
-    bottom: 0;
-    left: 0;
-}
-
 .under_construction
 {
 	position: fixed;
