@@ -1,2 +1,2 @@
 # Personal-website
-ChaseBosman.com, website coded in html and css, coded for personal use
+ChaseBosman.com, website coded in html, css and javascript, coded for personal use
