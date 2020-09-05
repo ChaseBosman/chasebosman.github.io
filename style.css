@@ -5,18 +5,76 @@
 
 }
 
+.email
+{
+	color:black;
+	font-size: 25px;
+	position: fixed;
+	top: 40%;
+	left: 50%;
+  	transform: translate(-50%, -50%);
+}
+
 header, body
 {
 	background: black;
 	background-image: url("images/Mountains.png");
 }
-
-.under_construction
+  
+.github
 {
 	position: fixed;
 	top: 37%;
-	left: 50%;
+	left: 41%;
 	transform: translate(-50%, -50%);
+}
+
+#items 
+{
+	transition: margin-left .5s;
+	padding: 20px;
+}
+
+.link_in
+{
+	position: fixed;
+	top: 37%;
+	left: 59%;
+	transform: translate(-50%, -50%);
+}
+
+.loc
+{
+	color:black;
+	position: fixed;
+  	top: 45%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+}
+
+
+@media screen and (max-height: 450px) 
+{
+	.sidenav {padding-top: 15px;}
+	.sidenav a {font-size: 18px;}
+} 
+
+@media screen and (max-width: 1100px) 
+{
+    .github {
+		position: fixed;
+		top: 37%;
+		left: 31%;
+		transform: translate(-50%, -50%);
+    }
+
+	.link_in
+	{
+		position: fixed;
+		top: 37%;
+		left: 69%;
+		transform: translate(-50%, -50%);
+	}
 }
 
 .sidenav 
@@ -50,61 +108,14 @@ header, body
 
 .sidenav .close 
 {
+	font-size: 36px;
 	position: absolute;
 	top: 0;
 	right: 25px;
-	font-size: 36px;
 	margin-left: 50px;
 }
 
-#items 
-{
-	transition: margin-left .5s;
-	padding: 20px;
-}
-
-
-@media screen and (max-height: 450px) 
-{
-	.sidenav {padding-top: 15px;}
-	.sidenav a {font-size: 18px;}
-} 
-  
-div.github
-{
-	position: fixed;
-	top: 37%;
-	left: 41%;
-	transform: translate(-50%, -50%);
-}
-
-div.link_in
-{
-	position: fixed;
-	top: 37%;
-	left: 59%;
-	transform: translate(-50%, -50%);
-}
-
-@media screen and (max-width: 1100px) 
-{
-    div.github {
-		position: fixed;
-		top: 37%;
-		left: 31%;
-		transform: translate(-50%, -50%);
-    }
-
-	div.link_in
-	{
-		position: fixed;
-		top: 37%;
-		left: 69%;
-		transform: translate(-50%, -50%);
-	}
-}
-
-div.thanks
+.thanks
 {
 	color:black;
 	position: fixed;
@@ -113,22 +124,10 @@ div.thanks
   	transform: translate(-50%, -50%);
 }
 
-div.email
+.under_construction
 {
-	color:black;
-	font-size: 25px;
 	position: fixed;
-	top: 40%;
+	top: 37%;
 	left: 50%;
- 
-  transform: translate(-50%, -50%);
-}
-
-div.loc
-{
-	color:black;
-	position: fixed;
-  	top: 45%;
-  	left: 50%;
-  	transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
 }
