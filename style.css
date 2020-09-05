@@ -59,6 +59,15 @@ header, body
 	.sidenav a {font-size: 18px;}
 } 
 
+@media screen and (max-width: 600px) 
+{
+	.body
+	{
+		height: 100%;
+	}
+}
+
+
 @media screen and (max-width: 1100px) 
 {
     .github {
