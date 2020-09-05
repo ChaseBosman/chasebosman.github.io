@@ -59,11 +59,12 @@ header, body
 	.sidenav a {font-size: 18px;}
 } 
 
-@media screen and (max-width: 400px) 
+@media screen and (max-width: 415px) 
 {
 	.body
 	{
 		background-size: 100% auto;
+		background-attachment: scroll;
 	}
 }
 
