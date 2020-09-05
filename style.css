@@ -15,7 +15,7 @@
   	transform: translate(-50%, -50%);
 }
 
-header, body
+body
 {
 	background: black;
 	background-image: url("images/Mountains.png");
@@ -65,9 +65,9 @@ header, body
 	.sidenav a {font-size: 18px;}
 } 
 
-@media screen and (max-width: 415px) 
+@media screen and (max-width: 1415px) 
 {
-	.body
+	body
 	{
 		background-color: darkblue;
 		position: fixed; 
