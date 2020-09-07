@@ -23,8 +23,9 @@ body
 }
 
 .bottom{
-	color: rgb(255, 214, 214);
+	color: rgb(255, 214, 210);
 	font-size: 20px;
+	text-align: center;
 }
 
 
@@ -174,6 +175,7 @@ body
 
 .top
 {
-	color: rgb(80, 80, 150);
+	color: rgb(80, 80, 155);
 	font-size: 20px;
+	text-align: center;
 }
