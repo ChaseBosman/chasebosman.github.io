@@ -135,7 +135,19 @@ body
 .under_construction
 {
 	position: fixed;
-	top: 37%;
+	top: 30%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+	font-size: 30px;
+}
+
+.cons-link a
+{
+	color: black;
+	position: fixed;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 40px;
+	font-weight: bold;
 }
