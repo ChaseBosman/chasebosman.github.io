@@ -190,14 +190,25 @@ body
 	text-align: center;
 }
 
-.under-construct
+.under-construction
 {
 	color:black;
 	position: fixed;
-	font-size: 20px;
 	top: 25%;
 	left: 50%;
-  	transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	font-size: 30px;
+}
+
+.cons-link a
+{
+	color: black;
+	position: fixed;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 40px;
+	font-weight: bold;
 }
 
 
