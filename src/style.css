@@ -37,6 +37,16 @@ body
 	transform: translate(-50%, -50%);
 }
 
+.dev-branch a
+{
+	color:black;
+	font-size: 30px;
+	font-weight: bold;
+	position: fixed;
+	top: 35%;
+	left: 50%;
+  	transform: translate(-50%, -50%);
+}
 
 .email
 {
@@ -179,3 +189,18 @@ body
 	font-size: 20px;
 	text-align: center;
 }
+
+.under-construct
+{
+	color:black;
+	position: fixed;
+	font-size: 20px;
+	top: 25%;
+	left: 50%;
+  	transform: translate(-50%, -50%);
+}
+
+
+
+
+
