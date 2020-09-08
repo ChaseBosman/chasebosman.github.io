@@ -16,7 +16,7 @@
 body
 {
 	background: black;
-	background-image: url("images/Mountains.png");
+	background-image: url("../images/Mountains.png");
 	background-size: cover;
     background-position:center ;
     background-attachment: fixed;
