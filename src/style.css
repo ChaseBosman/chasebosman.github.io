@@ -5,6 +5,49 @@
 
 }
 
+.about
+{
+	position: fixed;
+	top: 65%;
+	left: 69%;
+	transform: translate(-50%, -50%);
+}
+
+body
+{
+	background: black;
+	background-image: url("../images/Mountains.png");
+	background-size: cover;
+    background-position:center ;
+    background-attachment: fixed;
+}
+
+.bottom{
+	color: rgb(255, 214, 210);
+	font-size: 20px;
+	text-align: center;
+}
+
+
+.courses
+{
+	position: fixed;
+	top: 26%;
+	left: 31%;
+	transform: translate(-50%, -50%);
+}
+
+.dev-branch a
+{
+	color:black;
+	font-size: 30px;
+	font-weight: bold;
+	position: fixed;
+	top: 35%;
+	left: 50%;
+  	transform: translate(-50%, -50%);
+}
+
 .email
 {
 	color:black;
@@ -13,17 +56,8 @@
 	top: 40%;
 	left: 50%;
   	transform: translate(-50%, -50%);
-}
+}  
 
-body
-{
-	background: black;
-	background-image: url("images/Mountains.png");
-	background-size: cover;
-    background-position:center ;
-    background-attachment: fixed;
-}
-  
 .html
 {
 	width: 100%;
@@ -85,6 +119,23 @@ body
 	}
 }
 
+.projects
+{
+	position: fixed;
+	top: 65%;
+	left: 31%;
+	transform: translate(-50%, -50%);
+}
+  
+
+.resume
+{
+	position: fixed;
+	top: 26%;
+	left: 69%;
+	transform: translate(-50%, -50%);
+}
+
 .sidenav 
 {
 	height: 100%; 
@@ -132,10 +183,18 @@ body
   	transform: translate(-50%, -50%);
 }
 
-.under_construction
+.top
 {
+	color: rgb(80, 80, 155);
+	font-size: 20px;
+	text-align: center;
+}
+
+.under-construction
+{
+	color:black;
 	position: fixed;
-	top: 30%;
+	top: 25%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	font-size: 30px;
@@ -151,3 +210,8 @@ body
 	font-size: 40px;
 	font-weight: bold;
 }
+
+
+
+
+
