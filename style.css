@@ -22,7 +22,8 @@ body
     background-attachment: fixed;
 }
 
-.bottom{
+.bottom
+{
 	color: rgb(255, 214, 210);
 	font-size: 20px;
 	text-align: center;
