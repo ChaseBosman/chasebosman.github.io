@@ -22,14 +22,11 @@ function closeNav()
 
 function create()
 {
-  const li = document.createElement("li");
-  li.classList.add("state");
-  const markup = `
-    <h2 class="Data" data-name="region">
-      <span>Ca</span>
-      <sup>Us</sup>
-    </h2>
-    `;
-  li.innerHTML = markup;
-  list.appendChild(li); 
+  var x = document.getElementById("formL");
+
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
 }
