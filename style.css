@@ -8,8 +8,8 @@
 .about
 {
 	position: fixed;
-	top: 65%;
-	left: 69%;
+	top: 26%;
+	left: 31%;
 	transform: translate(-50%, -50%);
 }
 
@@ -35,7 +35,7 @@ body
 {
 	position: fixed;
 	top: 26%;
-	left: 31%;
+	left: 69%;
 	transform: translate(-50%, -50%);
 }
 
@@ -133,7 +133,7 @@ body
 .resume
 {
 	position: fixed;
-	top: 26%;
+	top: 65%;
 	left: 69%;
 	transform: translate(-50%, -50%);
 }
@@ -202,7 +202,7 @@ body
 	font-size: 30px;
 }
 
-.cons-link a
+#cons-link a
 {
 	color: black;
 	position: fixed;
@@ -213,21 +213,6 @@ body
 	font-weight: bold;
 }
 
-#spacer {
-	background: red;
-	color: #fff;
-	height: 80vh;
-  }
-
-#formL
-{
-	color: black;
-	position: fixed;
-	top: 95%;
-	left: 50%;
-	width: 80%;
-	transform: translate(-50%, -50%);
-}
 
 
 
