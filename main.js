@@ -19,3 +19,12 @@ function closeNav()
   document.getElementById("mySidenav").style.width = "0";
   document.getElementById("items").style.marginLeft = "0";
 } 
+
+
+function positionedPopup(url,winName,w,h,t,l,scroll)
+{
+  var popupWindow = null;
+  settings = 'height='+h+',width='+w+',top='+t+',left='+l+',scrollbars='+scroll+',resizable'
+  popupWindow = window.open(url,winName,settings)
+}
+
